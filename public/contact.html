@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="keywords" content="fvalentinus.web.app"/>
+<meta name="description" content="Franciscus Valentinus Ongkosianbhadra's Personal Website"/>
+<title>fvalentinus | Contact Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet"/>
+<link rel="shortcut icon" href="favicon.png">
+<script src="https://kit.fontawesome.com/eb8e05f31d.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/"><h2>fvalentinus</h2></a>
+        <a href="contact.html" class="menu active">Contact</a>
+        <a href="gallery.html" class="menu">Gallery</a>
+        <a href="projects.html" class="menu">Projects</a>
+        <a href="interests.html" class="menu">Interests</a>
+        <a href="jasa.html" class="menu">Jasa</a>
+        <a href="/" class="menu">Home</a>
+    </div>
+    <div class="header">
+        <h1>Contact Me</h1>
+    </div>
+    <div class="row">
+        <div class="main large-font center">
+            <form action="https://valentweb.000webhostapp.com/contact.php" method="post">
+                <p>Your Email :</p>
+                <input class="input" name="from" type="email" required>
+                <br/>
+                <p>Subject :</p>
+                <input class="input" name="subject" type="text" required>
+                <br/>
+                <p>Message :</p>
+                <textarea class="input2" name="message" type="text" required></textarea>
+                <br/>
+                <br/>
+                <center>
+                    <div class="g-recaptcha" data-sitekey="6LftZ-AUAAAAAParnvmIDBnlMLpgAxsyWc8_Qp8_"></div>
+                </center>
+                <button class="btn" type="submit" value="Send">Send</button>
+                <br/>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="https://api.whatsapp.com/send?phone=6281333138472&text" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+            <a href="http://line.me/ti/p/~fvo140202" target="_blank"><i class="fab fa-line fa-2x"></i></a>
+            <a href="https://www.instagram.com/franciscusvalentinus/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/franciscusvalentinus/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </p>
+        <p>
+            &copy; 2020 fvalentinus | Made with <i class="fas fa-heart"></i> using <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+        </p>
+    </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.12.0/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.12.0/firebase-analytics.js"></script>
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<script>		
+
+    $("fa-bars").click(
+
+        function() {
+
+            alert("OOOUUUCCCHHHH");
+
+        }
+
+    );
+    </script>
+
+</body>
+</html>

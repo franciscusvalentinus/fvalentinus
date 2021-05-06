@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #38b6ff;
+    text-decoration: none;
+}
+
+/* HEADER */
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url(images/header.png);
+    color: #ffffff;
+    max-width: 100%;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #38b6ff;
+    padding: 0px 60px 0px 60px;
+}
+
+.navbar a {
+    float: left;
+    color: #ffffff;
+}
+
+.navbar a h2 {
+    margin: 5px 0px 0px 0px;
+}
+
+.navbar a.menu {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.navbar a.menu:hover, .navbar a.active {
+    background-color: #ffffff;
+    color: #38b6ff;
+    transition: 0.5s ease;
+}
+
+/* CONTENT */
+.root {  
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.main {   
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: #ffffff;
+    padding: 40px 60px;
+}
+
+.separate {
+    background-color: #f8f8f8;
+}
+
+.padding-lr {
+    padding: 0px 150px;
+}
+
+.padding-tb {
+    padding: 50px 0px;
+}
+
+.clear {
+    clear:both;
+}
+
+.left {
+    float: left;
+    margin-right: 50px;
+}
+
+.left2 {
+    float: left;
+    margin-right: 83px;
+}
+
+.left3 {
+    float: left;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.left4 {
+    float: left;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.center2 {
+    float: left;
+    margin-left: 270px;
+    margin-right: 200px;
+}
+
+.right {
+    float: right;
+    margin-left: 50px;
+}
+
+.right2 {
+    float: right;
+    margin-left: 83px;
+}
+
+.right3 {
+    float: right;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+.right4 {
+    float: right;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.lr {
+    margin: 0px 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.large-font {
+    font-size: 25px;
+}
+
+.large-font2 {
+    font-size: 30px;
+}
+
+.small-font {
+    font-size: 20px;
+}
+
+.picture:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.25);
+    transition: 0.5s ease;
+}
+
+/* BUTTON */
+.btn {
+    color: #ffffff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    background-color: #38b6ff;
+}
+
+/* INPUT */
+.input {
+    background-color: #f8f8f8;
+    height: 40px;
+    width: 300px;
+    padding: 0px 15px;
+    border: 1px solid #cacaca;
+}
+
+.input2 {
+    background-color: #f8f8f8;
+    height: 90px;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #cacaca;
+}
+
+/* FOOTER */
+.footer {
+    overflow: hidden;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    background: #e9ecef;
+}
+
+.footer p a:hover {
+    color: #000000;
+}
+
+.footer p a i {
+    padding: 0px 10px;
+}
+
+/* Font Awesome */
+.fa-whatsapp {
+	color: #25d366;
+}
+
+.fa-whatsapp:hover {
+	color: #8F8F8F;
+}
+
+.fa-line {
+	color: #00c300;
+}
+
+.fa-line:hover {
+	color: #8F8F8F;
+}
+
+.fa-instagram {
+	color: #f56040;
+}
+
+.fa-instagram:hover {
+	color: #8F8F8F;
+}
+
+.fa-linkedin {
+	color: #0077b5;
+}
+
+.fa-linkedin:hover {
+	color: #8F8F8F;
+}
+
+.fa-heart {
+	color: #ff0000;
+}
+
+.fa-heart:hover {
+	color: #000000;
+}
+
+.fa-frown {
+	color: #ff0000;
+}
+
+.fa-frown:hover {
+	color: #8F8F8F;
+}
+
+.fa-check {
+	color: #00ff00;
+}
+
+.fa-check:hover {
+	color: #8F8F8F;
+}
+
+.fa-times {
+	color: #ff0000;
+}
+
+.fa-times:hover {
+	color: #8F8F8F;
+}
+
+.fa-exclamation {
+    color: #38b6ff;
+}
+
+.fa-exclamation:hover {
+    color: #000000;
+}
+
+.fa-dollar-sign {
+    color: #85bb65;
+}
+
+.fa-dollar-sign:hover {
+    color: #000000;
+}
+
+.fa-address-card {
+    color: #38b6ff;
+}
+
+.fa-address-card:hover {
+    color: #8f8f8f;
+}
+
+.fa-smile {
+    color: #ffd700;
+}
+
+.fa-smile:hover {
+    color: #8f8f8f;
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 700px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+    
+    .root {   
+        flex-direction: column;
+    }
+
+    iframe,img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .summon {
+        visibility: visible;
+    }
+
+    .input {
+        width: 200px;
+    }
+    
+    .input2 {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+}
